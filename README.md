@@ -21,7 +21,7 @@ A high-performance, cinematic personal portfolio website for **Kishore M** (Java
 dai/
 ├── public/
 │   ├── favicon.svg                # Red accent developer favicon
-│   ├── Kishore_Resume.pdf         # Official downloadable resume PDF
+│   ├── Kishore_M_Resume.pdf       # Official downloadable resume PDF
 │   └── images/
 │       └── kishore.svg            # Stylized geometric developer avatar
 ├── src/

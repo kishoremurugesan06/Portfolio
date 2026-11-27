@@ -4,11 +4,13 @@ import { portfolioData } from '../data/portfolioData';
 export default function About({ onOpenResume }) {
   const { personal, quickFacts } = portfolioData;
 
-  const handleDownload = () => {
-    // Download resume PDF
+  const handleDownload = (e) => {
+    // Fallback programmatic download if needed
     const link = document.createElement('a');
     link.href = personal.resumePdf;
-    link.download = 'Kishore_Resume.pdf';
+    link.download = 'Kishore_M_Resume.pdf';
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -45,13 +47,16 @@ export default function About({ onOpenResume }) {
               Hands-on experience as a <strong>Java Full Stack Developer</strong> at <strong>Techvolt Software</strong>, developing an internal CRM application that manages student internship profiles, automated payment tracking, and certification registration in an Agile environment.
             </p>
             <p>
-              Proficient in <strong>Java, Spring Boot, React JS, JavaScript, MySQL, Microsoft Azure, and Bootstrap 5</strong> — driven by architectural reliability, clean code discipline, and user-centric problem solving.
+              Proficient in <strong>Java, Spring Boot, JavaScript, MySQL, Microsoft Azure, and Bootstrap 5</strong> — driven by architectural reliability, clean code discipline, and user-centric problem solving.
             </p>
 
             <div className="about-sign flex items-center gap-4 flex-wrap mt-8">
-              <button
+              <a
                 className="btn btn-primary"
-                onClick={handleDownload}
+                href={personal.resumePdf}
+                download="Kishore_M_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 title="Download Official Resume PDF"
               >
                 <svg
@@ -68,7 +73,7 @@ export default function About({ onOpenResume }) {
                   <line x1="12" y1="15" x2="12" y2="3" />
                 </svg>
                 Download Resume
-              </button>
+              </a>
 
               <button
                 className="btn btn-ghost"

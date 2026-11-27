@@ -16,11 +16,11 @@ export const portfolioData = {
     github: "https://github.com/kishoremurugesan06",
     githubUsername: "github.com/kishoremurugesan06",
     avatar: "/images/kishore.jpg",
-    resumePdf: "/Kishore_Resume.pdf",
+    resumePdf: "/Kishore_M_Resume.pdf",
     availabilityText: "Available for work — Coimbatore, TN",
     openToWorkBadge: "Available for work",
-    summary: "Results-driven Java Full Stack Developer with hands-on experience in backend development, front-end design, and database management, successfully delivering projects using Java, Spring Boot, React JS, and SQL/MySQL.",
-    heroBio: "Hi, I'm Kishore M — Results-driven Java Full Stack Developer building scalable, secure, and high-performance enterprise web applications with Java, Spring Boot,and SQL/MySQL. Focused on clean code and reliable architecture that solve real problems.",
+    summary: "Results-driven Java Full Stack Developer with hands-on experience in backend development, front-end design, and database management, successfully delivering projects using Java, Spring Boot, and SQL/MySQL.",
+    heroBio: "Hi, I'm Kishore M — Results-driven Java Full Stack Developer building scalable, secure, and high-performance enterprise web applications with Java, Spring Boot, and SQL/MySQL. Focused on clean code and reliable architecture that solve real problems.",
     chips: [
       { text: "Open To Work", color: "green" },
       { text: "Ready To Build", color: "red" },
@@ -48,7 +48,7 @@ export const portfolioData = {
     { label: "Role", value: "Java Full Stack Developer" },
     { label: "Email", value: "kishoremurugesan05@gmail.com", isEmail: true },
     { label: "Phone", value: "+91 6385806325", isPhone: true },
-    { label: "Focus", value: "Java · Spring Boot · React JS" }
+    { label: "Focus", value: "Java · Spring Boot · REST APIs" }
   ],
 
   education: [
@@ -97,7 +97,7 @@ export const portfolioData = {
     row1: [
       { name: "Java", icon: "☕" },
       { name: "Spring Boot", icon: "🍃" },
-      { name: "React JS", icon: "⚛️" },
+      { name: "Tailwind CSS", icon: "🌊" },
       { name: "JavaScript", icon: "⚡" },
       { name: "MySQL", icon: "🗄️" },
       { name: "SQL", icon: "📊" },
@@ -107,7 +107,7 @@ export const portfolioData = {
       { name: "CSS3", icon: "🎨" },
       { name: "Java", icon: "☕" },
       { name: "Spring Boot", icon: "🍃" },
-      { name: "React JS", icon: "⚛️" },
+      { name: "REST APIs", icon: "🔌" },
       { name: "MySQL", icon: "🗄️" }
     ],
     row2: [
@@ -133,7 +133,7 @@ export const portfolioData = {
     },
     {
       title: "Frameworks & Libraries",
-      skills: ["Spring Boot", "React JS", "Bootstrap 5", "HTML5", "CSS3"]
+      skills: ["Spring Boot", "Bootstrap 5", "HTML5", "CSS3", "Tailwind CSS"]
     },
     {
       title: "Databases & Storage",
@@ -158,11 +158,11 @@ export const portfolioData = {
       period: "April 2026 – Present",
       type: "Professional Experience",
       bullets: [
-        "Working on an internal CRM project that manages student internship details, payments, and certification registration, using Java, Spring Boot, React JS, and SQL in an Agile team environment.",
+        "Working on an internal CRM project that manages student internship details, payments, and certification registration, using Java, Spring Boot, and SQL in an Agile team environment.",
         "Backend development and database handling: building high-performance RESTful APIs and business logic with Java and Spring Boot, and writing SQL/MySQL queries for data storage and retrieval.",
-        "Front-end design: creating responsive, user-friendly, and accessible interfaces with React JS, HTML, CSS, and Bootstrap."
+        "Front-end design: creating responsive, user-friendly, and accessible interfaces with HTML, CSS, JavaScript, and Bootstrap."
       ],
-      technologies: ["Java", "Spring Boot", "React JS", "MySQL", "REST API", "Bootstrap 5", "Agile"]
+      technologies: ["Java", "Spring Boot", "MySQL", "REST API", "Bootstrap 5", "Agile"]
     }
   ],
 
@@ -178,9 +178,9 @@ export const portfolioData = {
       highlights: [
         "Working on an internal CRM application that manages customers (students) and their internship details.",
         "Handles payment tracking and certification registration for students in one centralized system.",
-        "Building REST APIs with Spring Boot and React JS screens for managing student records."
+        "Building REST APIs with Spring Boot and responsive screens for managing student records."
       ],
-      stack: ["Java", "Spring Boot", "React JS", "MySQL", "REST API", "Agile"],
+      stack: ["Java", "Spring Boot", "MySQL", "REST API", "Bootstrap 5", "Agile"],
       githubUrl: "https://github.com/kishoremurugesan06",
       liveUrl: null
     },
@@ -197,7 +197,7 @@ export const portfolioData = {
         "Secure customer login using policy number and date of birth, followed by email OTP verification.",
         "Online claim submission with document upload, surveyor assignment, claim decisions, reports, and tracking across 7 claim stages (submitted to settled)."
       ],
-      stack: ["Java", "Spring Boot", "React JS", "MySQL", "REST API", "Email OTP"],
+      stack: ["Java", "Spring Boot", "MySQL", "REST API", "Bootstrap 5", "Email OTP"],
       githubUrl: "https://github.com/kishoremurugesan06",
       liveUrl: null
     },
@@ -277,8 +277,8 @@ export const portfolioData = {
     {
       id: "fullstack-dev",
       title: "Full Stack Web Development",
-      desc: "High-performance full-stack web applications featuring reactive React JS frontends paired with robust Spring Boot microservices and MySQL databases.",
-      tags: ["Java", "Spring Boot", "React JS", "MySQL", "REST API", "Tailwind"]
+      desc: "High-performance full-stack web applications featuring modern responsive frontends paired with robust Spring Boot microservices and MySQL databases.",
+      tags: ["Java", "Spring Boot", "MySQL", "REST API", "JavaScript", "Tailwind"]
     },
     {
       id: "backend-apis",
@@ -289,8 +289,8 @@ export const portfolioData = {
     {
       id: "frontend-ui",
       title: "Responsive Front-End Engineering",
-      desc: "Modern, mobile-first responsive interfaces crafted with React JS, modern CSS, Bootstrap, and smooth micro-interactions that engage users.",
-      tags: ["React JS", "JavaScript", "HTML5", "CSS3", "Bootstrap 5", "Framer Motion"]
+      desc: "Modern, mobile-first responsive interfaces crafted with modern JavaScript, CSS, Bootstrap, and smooth micro-interactions that engage users.",
+      tags: ["JavaScript", "HTML5", "CSS3", "Bootstrap 5", "Responsive UI"]
     },
     {
       id: "cloud-db",

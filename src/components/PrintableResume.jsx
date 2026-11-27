@@ -21,7 +21,7 @@ export default function PrintableResume() {
       <h2>Skills</h2>
       <p>
         <strong>Languages:</strong> Java, JavaScript, SQL &nbsp;|&nbsp;
-        <strong>Frameworks:</strong> Spring Boot, React JS, Bootstrap 5, HTML5, CSS3 &nbsp;|&nbsp;
+        <strong>Frameworks:</strong> Spring Boot, Bootstrap 5, HTML5, CSS3 &nbsp;|&nbsp;
         <strong>Databases:</strong> MySQL &nbsp;|&nbsp;
         <strong>Tools &amp; Cloud:</strong> VS Code, Git, GitHub, Postman, Microsoft Azure, Cloud Computing &nbsp;|&nbsp;
         <strong>Methodologies:</strong> Agile, Scrum, Full Stack Development, RESTful APIs

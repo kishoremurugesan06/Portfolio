@@ -44,7 +44,7 @@ export default function Hero({ onOpenResume }) {
             </h1>
 
             <p className="hero-sub">
-              Hi, I'm <strong>{personal.name}</strong> — Java Full Stack Developer building scalable, secure and high-performance web applications with Java, Spring Boot, React JS, and modern cloud tooling. Focused on shipping products that solve real problems.
+              Hi, I'm <strong>{personal.name}</strong> — Java Full Stack Developer building scalable, secure and high-performance web applications with Java, Spring Boot, and modern cloud tooling. Focused on shipping products that solve real problems.
             </p>
 
             <div className="hero-cta">
