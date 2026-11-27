@@ -20,7 +20,7 @@ export const portfolioData = {
     availabilityText: "Available for work — Coimbatore, TN",
     openToWorkBadge: "Available for work",
     summary: "Results-driven Java Full Stack Developer with hands-on experience in backend development, front-end design, and database management, successfully delivering projects using Java, Spring Boot, React JS, and SQL/MySQL.",
-    heroBio: "Hi, I'm Kishore M — Results-driven Java Full Stack Developer building scalable, secure, and high-performance enterprise web applications with Java, Spring Boot, React JS, and SQL/MySQL. Focused on clean code and reliable architecture that solve real problems.",
+    heroBio: "Hi, I'm Kishore M — Results-driven Java Full Stack Developer building scalable, secure, and high-performance enterprise web applications with Java, Spring Boot,and SQL/MySQL. Focused on clean code and reliable architecture that solve real problems.",
     chips: [
       { text: "Open To Work", color: "green" },
       { text: "Ready To Build", color: "red" },
